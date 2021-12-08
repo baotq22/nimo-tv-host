@@ -1,0 +1,28 @@
+{
+  "extends": ["airbnb-typescript"],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "no-console": "off",
+    "no-underscore-dangle": "off",
+    "import/prefer-default-export": "off",
+    "max-len": ["error", 180, 2],
+    "object-curly-newline": ["error", { "multiline": true, "minProperties": 5 }],
+    "arrow-body-style": "off",
+    "no-param-reassign": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".ts"],
+        "moduleDirectory": ["node_modules", "."]
+      }
+    }
+  }
+}

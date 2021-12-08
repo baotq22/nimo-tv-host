@@ -1,0 +1,13 @@
+node_modules
+.next
+dist
+thumb.db
+*.zip
+*.rar
+.DS_Store
+npm-debug.log
+debug.log
+public/dong-farmer
+public/*
+access.log
+.rest
