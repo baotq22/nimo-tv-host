@@ -36,8 +36,4 @@
     "tsconfig-paths": "^3.9.0",
     "typescript": "^4.2.4"
   },
-  "engines": {
-    "node": "0.8.x",
-    "npm": "1.2.x"
-  },
 }
